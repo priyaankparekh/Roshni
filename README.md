@@ -31,7 +31,7 @@ This app contains 5 modules :
   * https://github.com/barteksc/AndroidPdfViewer
   
 * EMERGENCY SOS
-  * It helps the Blind and visually impaired people to call the Emergency Services i.e.(Police,Ambulance) directly thorogh the app.
+  * It helps the Blind and visually impaired people to call the Emergency Services i.e.(Police,Ambulance) directly through the app.
   
 ## Screenshots
 
