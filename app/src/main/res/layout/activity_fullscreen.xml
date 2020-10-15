@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roshni.FullscreenActivity">
+
+    <FrameLayout
+        android:id="@+id/cam_prev"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+    </FrameLayout>
+    <SurfaceView
+        android:id="@+id/sv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/imgb1"
+            android:text="DETECT COLOR"
+            android:textSize="35dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/Cname"
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="COLOR :  "
+            android:layout_above="@id/imgb1"/>
+
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    tools:context=".SelectMenu">
+
+    <Button
+        android:id="@+id/odbutton"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:drawableStart="@drawable/ic_icon_od_2"
+        android:layout_below="@+id/cdbutton"
+        android:text="OBJECT DETECTION"
+        android:textSize="28dp"
+        />
+
+    <Button
+        android:id="@+id/cdbutton"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:drawableStart="@drawable/ic_icon_cd"
+        android:layout_below="@+id/ltrbutton"
+        android:text="COLOR DETECTION"
+        android:textSize="28dp"
+        />
+
+    <Button
+        android:id="@+id/ltrbutton"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:drawableStart="@drawable/ic_icon_ltr_2"
+        android:text="LIVE TEXT READER"
+        android:textSize="28dp"
+        />
+
+
+    <Button
+        android:id="@+id/pdfbutton"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:drawableStart="@drawable/ic_icon_pdf"
+        android:layout_below="@+id/odbutton"
+        android:text="PDF READER"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/emgbutton"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:drawableStart="@drawable/ic_icon_emg"
+        android:layout_below="@+id/pdfbutton"
+        android:text="EMERGENCY SOS"
+        android:textSize="30dp"
+        />
+
+</RelativeLayout>
