@@ -32,3 +32,26 @@ This app contains 5 modules :
   
 * EMERGENCY SOS
   * It helps the Blind and visually impaired people to call the Emergency Services i.e.(Police,Ambulance) directly thorogh the app.
+  
+## Screenshots
+
+ * Live Text Reader
+ <img src="screenshots/LTR_ss.PNG" width="500" height="400">
+
+ * Color Detection
+ <img src="screenshots/CD_ss1.PNG" width="500" height="400">
+ 
+ * Object Detection
+ <img src="screenshots/OD_ss.PNG" width="500" height="400">
+
+ * PDF Reader
+ <img src="screenshots/PDF_ss.PNG" width="500" height="400">
+
+ * Emergency SOS
+ <img src="screenshots/EMG_ss.PNG" width="250" height="400">
+
+
+# Authors
+
+ * [Priyaank Parekh](https://github.com/priyaankparekh)
+ * [Karan Nandaniya](https://github.com/karannandaniya)
